@@ -1,0 +1,7 @@
+{
+    "name": "pendu/tdd",
+    "require": { "php": ">=8.0" },
+    "require-dev": { "phpunit/phpunit": "^10.0" },
+    "autoload": { "psr-4": { "Pendu\\": "src/" } },
+    "autoload-dev": { "psr-4": { "Pendu\\Tests\\": "tests/" } }
+}
